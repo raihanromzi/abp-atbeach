@@ -5,8 +5,8 @@ body {
 }
 
 .navbar-brand img {
-  max-height: 52px;
-  max-width: 121px;
+  height: 52px;
+  width: 121px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -24,8 +24,8 @@ body {
 .btn-login {
   background-color: #081332;
   color: #ffffff;
-  width: 185px;
-  height: 52px;
+  width: 180px;
+  height: 48px;
   border-radius: 42px;
 }
 .btn-login:hover {
@@ -54,5 +54,33 @@ header p {
 }
 
 span {
-  color: #f1a261;
+  color: #ffe970;
+}
+
+.section-stats {
+  margin-top: -50px;
+  border-radius: 88px;
+}
+.section-stats .stat-detail {
+  padding-top: 16px;
+  background-color: #ffffff;
+  padding-left: 64px;
+  padding-right: 64px;
+}
+.section-stats h2 {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.section-stats p {
+  font-size: 16px;
+  font-weight: lighter;
+}
+.section-stats .rounded-start {
+  border-bottom-left-radius: 88px !important;
+  border-top-left-radius: 88px !important;
+}
+.section-stats .rounded-end {
+  border-top-right-radius: 88px !important;
+  border-bottom-right-radius: 88px !important;
 }/*# sourceMappingURL=main.css.map */
