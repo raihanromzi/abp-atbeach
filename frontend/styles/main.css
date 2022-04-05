@@ -1,0 +1,58 @@
+body {
+  background-color: #ffffff;
+  font-family: "Circular Std", sans-serif;
+  color: #081332;
+}
+
+.navbar-brand img {
+  max-height: 52px;
+  max-width: 121px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #e4e4e4;
+  font-weight: lighter;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: #ffffff !important;
+  font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.btn-login {
+  background-color: #081332;
+  color: #ffffff;
+  width: 185px;
+  height: 52px;
+  border-radius: 42px;
+}
+.btn-login:hover {
+  background-color: #1d2d59;
+  color: #ffffff;
+}
+
+header {
+  padding: 200px 0px 223px !important;
+  margin-top: -90px !important;
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+}
+header h1,
+header p {
+  color: #ffffff;
+}
+header h1 {
+  font-weight: 700;
+  font-size: 72px;
+}
+header p {
+  font-weight: lighter;
+  color: #e4e4e4;
+  font-size: 16px;
+}
+
+span {
+  color: #f1a261;
+}/*# sourceMappingURL=main.css.map */
