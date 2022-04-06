@@ -68,30 +68,110 @@
     </div>
 
     <!-- Statistics -->
-    <div class="container">
-        <main>
-            <div class="row">
-                <section class="section-stats row justify-content-center" id="stats">
-                    <div class="col-3 col-md-2 stat-detail rounded-start">
-                        <h2>2000</h2>
-                        <p>Members</p>
+    <main>
+        <div class="row">
+            <section class="section-stats row justify-content-center" id="stats">
+                <div class="col-3 col-md-2 stat-detail rounded-start">
+                    <h2>2000</h2>
+                    <p>Members</p>
+                </div>
+                <div class="col-3 col-md-2 stat-detail">
+                    <h2>12</h2>
+                    <p>Country</p>
+                </div>
+                <div class="col-3 col-md-2 stat-detail">
+                    <h2>129</h2>
+                    <p>Hotels</p>
+                </div>
+                <div class="col-3 col-md-2 stat-detail rounded-end">
+                    <h2>85</h2>
+                    <p>Partners</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Partners -->
+        <section class="section-partners" id="partners">
+            <div class="contrainer">
+                <div class="row">
+                    <div class="col text-center section-partners-heading">
+                        <h2>OUR PARTNERS</h2>
                     </div>
-                    <div class="col-3 col-md-2 stat-detail">
-                        <h2>12</h2>
-                        <p>Country</p>
+                </div>
+                <div class="row justify-content-center" id="image-partner">
+                    <div class="col-3 col-md-auto image-partner">
+                        <img src="frontend/images/ANA.png" alt="" />
                     </div>
-                    <div class="col-3 col-md-2 stat-detail">
-                        <h2>129</h2>
-                        <p>Hotels</p>
+                    <div class="col-3 col-md-auto image-partner">
+                        <img src="frontend/images/Disney.png" alt="" />
                     </div>
-                    <div class="col-3 col-md-2 stat-detail rounded-end">
-                        <h2>85</h2>
-                        <p>Partners</p>
+                    <div class="col-3 col-md-auto image-partner">
+                        <img src="frontend/images/Shangrila.png" alt="" />
                     </div>
-                </section>
+                    <div class="col-3 col-md-auto image-partner">
+                        <img src="frontend/images/Visa.png" alt="" />
+                    </div>
+                </div>
             </div>
-        </main>
-    </div>
+        </section>
+
+        <!-- Top Destination -->
+        <section class="section-popular-content" id="popular-content">
+            <div class="container">
+                <div class="header-travel row m-3">
+                    <div class="col">
+                        <div class="row section-h2">
+                            <p>TOP DESTINATION</p>
+                        </div>
+                        <div class="row section-h1">
+                            <p>Explore Indonesia</p>
+                        </div>
+                        <div class="row section-h4">
+                            <p>Unmask hidden beach you never see it before</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-popular-travel row justify-content-center m-1">
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-travel text-center d-flex flex-column" style="background-image: url('frontend/images/Popular-1.jpeg')">
+                            <div class="travel-country">NTT</div>
+                            <div class="travel-location">PULAU PADAR</div>
+                            <div class="travel-button">
+                                <a href="# " class="btn btn-travel-details px-3">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-travel text-center d-flex flex-column" style="background-image: url('frontend/images/Popular-2.jpeg')">
+                            <div class="travel-country">BALI</div>
+                            <div class="travel-location">NUSA PENIDA</div>
+                            <div class="travel-button">
+                                <a href="# " class="btn btn-travel-details px-3">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-travel text-center d-flex flex-column" style="background-image: url('frontend/images/Popular-3.jpeg')">
+                            <div class="travel-country">BALI</div>
+                            <div class="travel-location">PADANG PADANG</div>
+                            <div class="travel-button">
+                                <a href="# " class="btn btn-travel-details px-3">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <div class="card-travel text-center d-flex flex-column" style="background-image: url('frontend/images/Popular-4.jpeg')">
+                            <div class="travel-country">ACEH</div>
+                            <div class="travel-location">PANTAI ACEH</div>
+                            <div class="travel-button">
+                                <a href="# " class="btn btn-travel-details px-3">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <br />
     <br />
@@ -99,12 +179,12 @@
 
     <script src="frontend/libraries/jquery/jquery-3.6.0.js "></script>
     <script src="frontend/libraries/bootstrap/js/bootstrap.js "></script>
-    <script src="frontend/libraries/retina/retina.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="frontend/libraries/retina/retina.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12 "></script>
 
     <script>
         var_typed = new Typed(".auto-type ", {
-            strings: ["Bali", "Nusa Penida", "Pulau Padar", "Aceh", "Lombok"],
+            strings: ["Bali ", "Nusa Penida ", "Pulau Padar ", "Aceh ", "Lombok "],
             typeSpeed: 100,
             backSpeed: 180,
             loop: true,

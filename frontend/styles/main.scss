@@ -93,3 +93,86 @@ span {
         border-bottom-right-radius: 88px !important;
     }
 }
+
+// Partners
+.section-partners {
+    min-height: 922px;
+    background-color: #081332;
+    margin-top: -44px;
+    margin-bottom: -230px;
+    .section-partners-heading {
+        margin-top: 180px;
+        h2 {
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 500;
+            letter-spacing: 4px;
+        }
+    }
+    .image-partner {
+        margin-top: 56px;
+        margin-left: 32px;
+    }
+}
+
+// Popular Content
+.section-popular-content {
+    .section-popular-travel {
+        .card-travel {
+            min-height: 383px;
+            border-radius: 32px;
+            color: #ffffff;
+            padding: 24px;
+            background-size: cover;
+            margin-bottom: 24px;
+        }
+        .travel-country {
+            font-size: 18px;
+            font-weight: lighter;
+            color: #ffffff;
+            letter-spacing: 4px;
+        }
+        .travel-location {
+            font-size: 24px;
+            font-weight: 900;
+            color: #ffffff;
+        }
+        .travel-button {
+            .btn-travel-details {
+                background-color: #f1a261;
+                color: #ffffff;
+                min-width: 192px;
+                min-height: 52px;
+                border-radius: 32px;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                padding-left: 50px;
+                padding-right: 50px;
+                margin-top: 228px;
+                &:hover {
+                    background-color: #f6b784;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+    .header-travel {
+        margin-top: -400px !important;
+        .section-h1 {
+            color: #ffffff;
+            font-size: 72px;
+            font-weight: 700;
+        }
+        .section-h2 {
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 500;
+            letter-spacing: 4px;
+        }
+        .section-h4 {
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: lighter;
+        }
+    }
+}
