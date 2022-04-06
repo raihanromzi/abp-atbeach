@@ -144,14 +144,14 @@ span {
                 min-width: 192px;
                 min-height: 52px;
                 border-radius: 32px;
-                padding-top: 16px;
-                padding-bottom: 16px;
-                padding-left: 50px;
-                padding-right: 50px;
                 margin-top: 228px;
+                padding: 0px;
                 &:hover {
                     background-color: #f6b784;
                     color: #ffffff;
+                }
+                p {
+                    padding-top: 10px;
                 }
             }
         }
@@ -182,7 +182,7 @@ span {
 .section-testimonial-heading {
     background: linear-gradient(#ffffff 0%, #f7f9ff 100%);
     padding-top: 50px;
-    min-height: 506px;
+    min-height: 600px;
     h2 {
         color: #081332;
         font-size: 72px;
@@ -194,12 +194,58 @@ span {
         font-size: 20px;
         font-weight: 500;
         letter-spacing: 4px;
-        margin-top: 100px;
+        margin-top: 80px;
     }
     p {
-        color: #081332;
+        color: #7d7d7d;
         font-size: 16px;
         font-weight: lighter;
         margin-top: -20px;
+    }
+}
+
+.section-testimonial-content {
+    margin-top: -240px;
+    padding-bottom: 50px;
+    .rounded {
+        border-radius: 32px !important;
+    }
+    .card-tertimonial {
+        padding-top: 40px 20px 10px;
+        margin-bottom: 16px;
+    }
+    .testimonial-content {
+        min-height: 352px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 64px;
+        padding-right: 64px;
+        background-color: #ffffff;
+        border-radius: 32px;
+        h3 {
+            font-size: 24px;
+            font-weight: 400;
+        }
+        .testimonial {
+            font-size: 16px;
+            color: #7d7d7d;
+            font-weight: lighter;
+        }
+    }
+    .trip-to {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    hr {
+        color: #7d7d7d;
+    }
+}
+
+.section-footer {
+    margin-top: 164px !important;
+    background-color: #081332;
+    p {
+        margin: 8px;
+        color: #ffffff;
     }
 }
