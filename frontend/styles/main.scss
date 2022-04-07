@@ -285,7 +285,7 @@ span {
         }
     }
     .card-details {
-        width: 720px;
+        min-width: 720px;
         padding: 32px;
         border-radius: 16px;
         h1 {
@@ -310,11 +310,13 @@ span {
     .gallery {
         margin-top: 0px;
         padding: 0px;
-        width: 636px;
+        width: 790px;
         .xzoom-container {
             display: block;
             .xzoom {
+                width: 790px;
                 box-shadow: none;
+                border-radius: 8px;
             }
             .xactive {
                 border: 2px solid #1abc9c;
@@ -325,6 +327,7 @@ span {
     .card-right {
         padding: 32px;
         border-radius: 16px;
+        margin-right: 32px;
         h2 {
             font-size: 24px;
             font-weight: 300;
@@ -356,7 +359,7 @@ span {
         .btn-join-now {
             background-color: #f1a261;
             color: #ffffff;
-            width: 288px;
+            width: 320px;
             height: 48px;
             border-radius: 42px;
             &:hover {

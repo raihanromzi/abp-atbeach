@@ -269,7 +269,7 @@ span {
   color: #ffffff;
 }
 .section-details-content .card-details {
-  width: 720px;
+  min-width: 720px;
   padding: 32px;
   border-radius: 16px;
 }
@@ -294,13 +294,15 @@ span {
 .section-details-content .gallery {
   margin-top: 0px;
   padding: 0px;
-  width: 636px;
+  width: 790px;
 }
 .section-details-content .gallery .xzoom-container {
   display: block;
 }
 .section-details-content .gallery .xzoom-container .xzoom {
+  width: 790px;
   box-shadow: none;
+  border-radius: 8px;
 }
 .section-details-content .gallery .xzoom-container .xactive {
   border: 2px solid #1abc9c;
@@ -309,6 +311,7 @@ span {
 .section-details-content .card-right {
   padding: 32px;
   border-radius: 16px;
+  margin-right: 32px;
 }
 .section-details-content .card-right h2 {
   font-size: 24px;
@@ -339,7 +342,7 @@ span {
 .section-details-content .card-right .btn-join-now {
   background-color: #f1a261;
   color: #ffffff;
-  width: 288px;
+  width: 320px;
   height: 48px;
   border-radius: 42px;
 }
