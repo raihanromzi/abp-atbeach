@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Detail</title>
+    <title>atBeach - Nusa Penida</title>
+    <link rel="icon" href="frontend/images/logo/favicon.png">
 
     <!-- https://www.cdnfonts.com/circular-std.font -->
     <link href="http://fonts.cdnfonts.com/css/circular-std" rel="stylesheet" />
@@ -74,34 +75,35 @@
                         <div class="card card-details">
                             <h1>Nusa Penida</h1>
                             <h3>Indonesia, Bali</h3>
-                            <div class="gallery">
+                            <div class="gallery" style="padding: 0px;">
                                 <div class="xzoom-container">
-                                    <img src="frontend/images/nusapenida-1.jpeg" class="xzoom" id="xzoom-default" xoriginal="frontend/images/nusapenida-1.jpeg" />
-                                </div>
-                                <div class="xzoom-thumbs">
-                                    <a href="frontend/images/nusapenida-1.jpeg">
-                                        <img src="frontend/images/nusapenida-1.jpeg" class="xzoom-gallery" width="158" xpreview="frontend/images/nusapenida-1.jpeg" />
-                                    </a>
-                                    <a href="frontend/images/nusapenida-1.jpeg">
-                                        <img src="frontend/images/nusapenida-1.jpeg" class="xzoom-gallery" width="158" xpreview="frontend/images/nusapenida-1.jpeg" />
-                                    </a>
-                                    <a href="frontend/images/nusapenida-1.jpeg">
-                                        <img src="frontend/images/nusapenida-1.jpeg" class="xzoom-gallery" width="158" xpreview="frontend/images/nusapenida-1.jpeg" />
-                                    </a>
-                                    <a href="frontend/images/nusapenida-1.jpeg">
-                                        <img src="frontend/images/nusapenida-1.jpeg" class="xzoom-gallery" width="158" xpreview="frontend/images/nusapenida-1.jpeg" />
-                                    </a>
+                                    <img class="xzoom" src="frontend/images/nusapenida-1.jpeg" xoriginal="frontend/images/nusapenida-1.jpeg" style="width: 636px;" />
+                                    <div class="xzoom-thumbs" style="margin-left: -6px;min-width: 636px;">
+                                        <a href="frontend/images/nusapenida-1.jpeg">
+                                            <img class="xzoom-gallery" width="120" src="frontend/images/nusapenida-1.jpeg" xpreview="frontend/images/nusapenida-1.jpeg" style="margin-top: 16px;" />
+                                        </a>
+                                        <a href="frontend/images/nusapenida-2.jpeg">
+                                            <img class="xzoom-gallery" width="120" src="frontend/images/nusapenida-2.jpeg" xpreview="frontend/images/nusapenida-2.jpeg" style="margin-top: 16px;" />
+                                        </a>
+                                        <a href="frontend/images/nusapenida-3.jpeg">
+                                            <img class="xzoom-gallery" width="120" src="frontend/images/nusapenida-3.jpeg" xpreview="frontend/images/nusapenida-3.jpeg" style="margin-top: 16px;" />
+                                        </a>
+                                        <a href="frontend/images/nusapenida-4.jpeg">
+                                            <img class="xzoom-gallery" width="120" src="frontend/images/nusapenida-4.jpeg" xpreview="frontend/images/nusapenida-4.jpeg" style="margin-top: 16px;" />
+                                        </a>
+                                        <a href="frontend/images/nusapenida-5.jpeg">
+                                            <img class="xzoom-gallery" width="120" src="frontend/images/nusapenida-5.jpeg" xpreview="frontend/images/nusapenida-5.jpeg" style="margin-top: 16px;" />
+                                        </a>
+                                    </div>
+
+                                    <h2>Tentang Wisata</h2>
+                                    <p>
+                                        Nusa Penida is an island southeast of Indonesia's island Bali and a district of Klungkung Regency that includes the neighbouring small island of Nusa Lembongan and twelve even smaller islands . The Badung Strait separates the island and Bali. The interior
+                                        of Nusa Penida is hilly with a maximum altitude of 524 metres. It is drier than the nearby island of Bali. It is one of the major tourist attractions among the three Nusa islands and is rich in natural beauty.
+                                    </p>
                                 </div>
                             </div>
-                            <h2>Tentang Wisata</h2>
-                            <p>
-                                Nusa Penida is an island southeast of Indonesia's island Bali and a district of Klungkung Regency that includes the neighbouring small island of Nusa Lembongan and twelve even smaller islands . The Badung Strait separates the island and Bali. The interior
-                                of Nusa Penida is hilly with a maximum altitude of 524 metres. It is drier than the nearby island of Bali. It is one of the major tourist attractions among the three Nusa islands and is rich in natural beauty.
-                            </p>
                         </div>
-                    </div>
-                </div>
-            </div>
         </section>
     </main>
 
@@ -130,11 +132,11 @@
 
     <script>
         $(document).ready(function() {
-            $(".xzoom, .xzoom - gallery ").xzoom({
+            $('.xzoom, .xzoom-gallery').xzoom({
                 zoomWidth: 500,
                 title: false,
-                tint: "#333",
-                xoffset: 15,
+                tint: '#333',
+                Xoffset: 15
             });
         });
     </script>

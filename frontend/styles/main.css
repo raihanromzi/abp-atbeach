@@ -292,10 +292,18 @@ span {
   font-weight: lighter;
   color: #b1b1b1;
 }
-.section-details-content .gallery .xzoom-container {
+.section-details-content .gallery {
+  margin-top: 0px;
+  padding: 0px;
+  width: 636px;
+}
+.section-details-content .gallery .xzoom-container .gallery .xzoom-container {
   display: block;
 }
-.section-details-content .gallery .xzoom-container .xzoom {
-  width: 656px;
+.section-details-content .gallery .xzoom-container .gallery .xzoom-container .xzoom {
+  box-shadow: none;
+}
+.section-details-content .gallery .xzoom-container .gallery .xzoom-container .xactive {
+  border: 2px solid #1abc9c;
   box-shadow: none;
 }/*# sourceMappingURL=main.css.map */

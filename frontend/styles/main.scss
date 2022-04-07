@@ -309,11 +309,21 @@ span {
         }
     }
     .gallery {
+        margin-top: 0px;
+        padding: 0px;
+        width: 636px;
         .xzoom-container {
-            display: block;
-            .xzoom {
-                width: 656px;
-                box-shadow: none;
+            .gallery {
+                .xzoom-container {
+                    display: block;
+                    .xzoom {
+                        box-shadow: none;
+                    }
+                    .xactive {
+                        border: 2px solid #1abc9c;
+                        box-shadow: none;
+                    }
+                }
             }
         }
     }
