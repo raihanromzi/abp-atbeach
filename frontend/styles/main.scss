@@ -310,11 +310,11 @@ span {
     .gallery {
         margin-top: 0px;
         padding: 0px;
-        width: 790px;
+        min-width: 790px;
         .xzoom-container {
             display: block;
             .xzoom {
-                width: 790px;
+                min-width: 790px;
                 box-shadow: none;
                 border-radius: 8px;
             }
@@ -328,6 +328,10 @@ span {
         padding: 32px;
         border-radius: 16px;
         margin-right: 32px;
+        h3 {
+            font-size: 24px;
+            font-weight: 300;
+        }
         h2 {
             font-size: 24px;
             font-weight: 300;
@@ -359,12 +363,40 @@ span {
         .btn-join-now {
             background-color: #f1a261;
             color: #ffffff;
-            width: 320px;
-            height: 48px;
+            min-width: 320px;
+            min-height: 48px;
             border-radius: 42px;
             &:hover {
                 background-color: #eeaf7c;
                 color: #ffffff;
+            }
+        }
+    }
+    .btn-add-now {
+        background-color: #071c4d;
+        min-width: 790px;
+        color: #fff;
+        &:hover {
+            color: #fff;
+        }
+    }
+    .input-group-text {
+        background-color: transparent;
+    }
+    h3 {
+        font-weight: 400;
+        font-size: 14px;
+        color: #071c4d;
+    }
+    .section-success {
+        .btn-home-page {
+            background-color: #071c4d;
+            border-radius: 32px;
+            min-width: 288px;
+            min-height: 52px;
+            color: #fff;
+            &:hover {
+                color: #fff;
             }
         }
     }

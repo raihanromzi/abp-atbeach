@@ -294,13 +294,13 @@ span {
 .section-details-content .gallery {
   margin-top: 0px;
   padding: 0px;
-  width: 790px;
+  min-width: 790px;
 }
 .section-details-content .gallery .xzoom-container {
   display: block;
 }
 .section-details-content .gallery .xzoom-container .xzoom {
-  width: 790px;
+  min-width: 790px;
   box-shadow: none;
   border-radius: 8px;
 }
@@ -312,6 +312,10 @@ span {
   padding: 32px;
   border-radius: 16px;
   margin-right: 32px;
+}
+.section-details-content .card-right h3 {
+  font-size: 24px;
+  font-weight: 300;
 }
 .section-details-content .card-right h2 {
   font-size: 24px;
@@ -342,11 +346,37 @@ span {
 .section-details-content .card-right .btn-join-now {
   background-color: #f1a261;
   color: #ffffff;
-  width: 320px;
-  height: 48px;
+  min-width: 320px;
+  min-height: 48px;
   border-radius: 42px;
 }
 .section-details-content .card-right .btn-join-now:hover {
   background-color: #eeaf7c;
   color: #ffffff;
+}
+.section-details-content .btn-add-now {
+  background-color: #071c4d;
+  min-width: 790px;
+  color: #fff;
+}
+.section-details-content .btn-add-now:hover {
+  color: #fff;
+}
+.section-details-content .input-group-text {
+  background-color: transparent;
+}
+.section-details-content h3 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #071c4d;
+}
+.section-details-content .section-success .btn-home-page {
+  background-color: #071c4d;
+  border-radius: 32px;
+  min-width: 288px;
+  min-height: 52px;
+  color: #fff;
+}
+.section-details-content .section-success .btn-home-page:hover {
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
