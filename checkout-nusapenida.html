@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout - Nusa Penida</title>
+    <link rel="icon" href="frontend/images/logo/favicon.png" />
+
+    <!-- https://www.cdnfonts.com/circular-std.font -->
+    <link href="http://fonts.cdnfonts.com/css/circular-std" rel="stylesheet" />
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="frontend/styles/main.css" />
+    <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css" />
+    <link rel="stylesheet" href="frontend/libraries/gijgo/css/gijgo.min.css" />
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="container">
+        <div class="row mt-2">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="frontend/images/logo/image.png" alt="" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navb">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+                    <div class="collapse navbar-collapse" id="navb">
+                        <ul class="navbar-nav m-lg-auto">
+                            <li class="nav-item mx-md-2">
+                                <a class="nav-link active" href="#">Beranda</a>
+                            </li>
+                            <li class="nav-item mx-md-2">
+                                <a class="nav-link" href="# ">Paket Travel</a>
+                            </li>
+                            <li class="nav-item mx-md-2">
+                                <a class="nav-link" href="# ">Services</a>
+                            </li>
+                        </ul>
+
+                        <!-- Mobile Contact us Button -->
+                        <form class="form-inline d-sm-block d-md-none">
+                            <button class="btn btn-login-light my-2 my-sm-0">Contact Us</button>
+                        </form>
+
+                        <!-- Desktop Contact us Button -->
+                        <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+                            <button class="btn btn-login-light btn-navbar-right my-2 my-sm-0 px-4">Contact Us</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <main>
+        <section class="section-details-header"></section>
+        <section class="section-details-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <nav>
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">Paket Travel</li>
+                                <li class="breadcrumb-item">Details</li>
+                                <li class="breadcrumb-item active">Checkout</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 pl-lg-0">
+                        <div class="card card-details mb-3">
+                            <h1>Who is Going?</h1>
+                            <div class="attendee">
+                                <table class="table table-responsive-sm text-center">
+                                    <thead>
+                                        <tr>
+                                            <td scope="col">Name</td>
+                                            <td scope="col">Nationality</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="align-middle"></td>
+                                            <td class="align-middle"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="align-middle"></td>
+                                            <td class="align-middle"></td>
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="member mt-4">
+                                <h2>Add Member</h2>
+                                <form class="form-inline">
+                                    <label class="sr-only" for="inputUsername">Name</label>
+                                    <input type="text" class="form-control mb-4 mr-sm-2" id="inputUsername" placeholder="Full Name" />
+
+                                    <label class="sr-only" for="inputUsername">Nationality</label>
+                                    <input type="text" class="form-control mb-4 mr-sm-2" id="inputUsername" placeholder="Nation" />
+
+                                    <button type="submit" class="btn btn-add-now mb-2 px-4">
+                                Add Now
+                              </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card card-right">
+                            <h2>Checkout Information</h2>
+                            <table class="trip-informations">
+                                <tr>
+                                    <th width="50%">Price</th>
+                                    <td width="50%" class="text-right">Rp3.000.000</td>
+                                </tr>
+                                <tr>
+                                    <th width="50%">Total</th>
+                                    <td width="50%" class="text-right">Rp3.000.<span style="color: #f1a261">001</span></td>
+                                </tr>
+                            </table>
+                            <hr />
+                            <h2>Payment Instructions</h2>
+                            <p class="payment-instructions">Please complete your payment before to continue the wonderful trip</p>
+                            <div class="bank">
+                                <div class="bank-item pb-3">
+                                    <img src="frontend/images/ic_bank.png" alt="" class="bank-image" />
+                                    <div class="description">
+                                        <h3>PT atBeach ID</h3>
+                                        <p>
+                                            0888 88829 123
+                                            <br /> BRI
+                                        </p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                            <div class="join-container">
+                                <a href="success.html" class="btn btn-join-now mt-3 py-2">I have made payment</a>
+                            </div>
+                            <div class="text-center mt-3">
+                                <a href="index.html" class="text-muted">Cancel Booking</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <footer class="section-footer border-top">
+        <div class="container pt-4 pb-4">
+            <div class="row justify-content-center text-center">
+                <p>Made by Telkom University Students for Tubes APB IF-43-12 Kelompok 10</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="frontend/libraries/jquery/jquery-3.6.0.js "></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js "></script>
+    <script src="frontend/libraries/retina/retina.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12 "></script>
+    <script src="frontend/libraries/xzoom/xzoom.min.js"></script>
+    <script src="frontend/libraries/gijgo/js/gijgo.min.js"></script>
+
+    <script>
+        var_typed = new Typed(".auto-type ", {
+            strings: ["Bali ", "Nusa Penida ", "Pulau Padar ", "Aceh ", "Lombok "],
+            typeSpeed: 100,
+            backSpeed: 180,
+            loop: true,
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $(".xzoom, .xzoom-gallery").xzoom({
+                zoomWidth: 500,
+                title: false,
+                tint: "#333",
+                Xoffset: 15,
+            });
+        });
+
+        $('.datepicker').datepicker({
+            uiLibrary: 'bootstrap4',
+            icons: {
+                rightIcon: '<img src="frontend/images/ic_doe.png" alt="" />'
+            }
+        });
+    </script>
+</body>
+
+</html>

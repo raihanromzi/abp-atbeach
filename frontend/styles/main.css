@@ -269,10 +269,9 @@ span {
   color: #ffffff;
 }
 .section-details-content .card-details {
-  width: 720px;
+  min-width: 720px;
   padding: 32px;
   border-radius: 16px;
-  margin-left: 24px;
 }
 .section-details-content .card-details h1 {
   font-size: 48px;
@@ -295,15 +294,89 @@ span {
 .section-details-content .gallery {
   margin-top: 0px;
   padding: 0px;
-  width: 636px;
+  min-width: 790px;
 }
-.section-details-content .gallery .xzoom-container .gallery .xzoom-container {
+.section-details-content .gallery .xzoom-container {
   display: block;
 }
-.section-details-content .gallery .xzoom-container .gallery .xzoom-container .xzoom {
+.section-details-content .gallery .xzoom-container .xzoom {
+  min-width: 790px;
   box-shadow: none;
+  border-radius: 8px;
 }
-.section-details-content .gallery .xzoom-container .gallery .xzoom-container .xactive {
+.section-details-content .gallery .xzoom-container .xactive {
   border: 2px solid #1abc9c;
   box-shadow: none;
+}
+.section-details-content .card-right {
+  padding: 32px;
+  border-radius: 16px;
+  margin-right: 32px;
+}
+.section-details-content .card-right h3 {
+  font-size: 24px;
+  font-weight: 300;
+}
+.section-details-content .card-right h2 {
+  font-size: 24px;
+  font-weight: 300;
+}
+.section-details-content .card-right p {
+  font-size: 16px;
+  font-weight: lighter;
+  color: #b1b1b1;
+}
+.section-details-content .card-right .trip-informations table {
+  margin: 16px;
+}
+.section-details-content .card-right .trip-informations th {
+  font-weight: lighter;
+  font-size: 16px;
+}
+.section-details-content .card-right .trip-informations td {
+  font-weight: 500;
+  padding-bottom: 16px;
+}
+.section-details-content .card-right .trip-informations .text-right {
+  text-align: right;
+}
+.section-details-content .card-right .join-container {
+  margin-top: -16px;
+}
+.section-details-content .card-right .btn-join-now {
+  background-color: #f1a261;
+  color: #ffffff;
+  min-width: 320px;
+  min-height: 48px;
+  border-radius: 42px;
+}
+.section-details-content .card-right .btn-join-now:hover {
+  background-color: #eeaf7c;
+  color: #ffffff;
+}
+.section-details-content .btn-add-now {
+  background-color: #071c4d;
+  min-width: 790px;
+  color: #fff;
+}
+.section-details-content .btn-add-now:hover {
+  color: #fff;
+}
+.section-details-content .input-group-text {
+  background-color: transparent;
+}
+.section-details-content h3 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #071c4d;
+}
+.section-details-content .section-success .btn-home-page {
+  background-color: #071c4d;
+  border-radius: 32px;
+  min-width: 288px;
+  min-height: 52px;
+  color: #fff;
+}
+.section-details-content .section-success .btn-home-page:hover {
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */

@@ -285,10 +285,9 @@ span {
         }
     }
     .card-details {
-        width: 720px;
+        min-width: 720px;
         padding: 32px;
         border-radius: 16px;
-        margin-left: 24px;
         h1 {
             font-size: 48px;
             font-weight: 700;
@@ -311,19 +310,93 @@ span {
     .gallery {
         margin-top: 0px;
         padding: 0px;
-        width: 636px;
+        min-width: 790px;
         .xzoom-container {
-            .gallery {
-                .xzoom-container {
-                    display: block;
-                    .xzoom {
-                        box-shadow: none;
-                    }
-                    .xactive {
-                        border: 2px solid #1abc9c;
-                        box-shadow: none;
-                    }
-                }
+            display: block;
+            .xzoom {
+                min-width: 790px;
+                box-shadow: none;
+                border-radius: 8px;
+            }
+            .xactive {
+                border: 2px solid #1abc9c;
+                box-shadow: none;
+            }
+        }
+    }
+    .card-right {
+        padding: 32px;
+        border-radius: 16px;
+        margin-right: 32px;
+        h3 {
+            font-size: 24px;
+            font-weight: 300;
+        }
+        h2 {
+            font-size: 24px;
+            font-weight: 300;
+        }
+        p {
+            font-size: 16px;
+            font-weight: lighter;
+            color: #b1b1b1;
+        }
+        .trip-informations {
+            table {
+                margin: 16px;
+            }
+            th {
+                font-weight: lighter;
+                font-size: 16px;
+            }
+            td {
+                font-weight: 500;
+                padding-bottom: 16px;
+            }
+            .text-right {
+                text-align: right;
+            }
+        }
+        .join-container {
+            margin-top: -16px;
+        }
+        .btn-join-now {
+            background-color: #f1a261;
+            color: #ffffff;
+            min-width: 320px;
+            min-height: 48px;
+            border-radius: 42px;
+            &:hover {
+                background-color: #eeaf7c;
+                color: #ffffff;
+            }
+        }
+    }
+    .btn-add-now {
+        background-color: #071c4d;
+        min-width: 790px;
+        color: #fff;
+        &:hover {
+            color: #fff;
+        }
+    }
+    .input-group-text {
+        background-color: transparent;
+    }
+    h3 {
+        font-weight: 400;
+        font-size: 14px;
+        color: #071c4d;
+    }
+    .section-success {
+        .btn-home-page {
+            background-color: #071c4d;
+            border-radius: 32px;
+            min-width: 288px;
+            min-height: 52px;
+            color: #fff;
+            &:hover {
+                color: #fff;
             }
         }
     }
