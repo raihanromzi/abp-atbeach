@@ -33,6 +33,18 @@ body {
   color: #ffffff;
 }
 
+.btn-login-light {
+  background-color: #f1a261;
+  color: #ffffff;
+  width: 180px;
+  height: 48px;
+  border-radius: 42px;
+}
+.btn-login-light:hover {
+  background-color: #eeaf7c;
+  color: #ffffff;
+}
+
 header {
   padding: 200px 0px 223px !important;
   margin-top: -90px !important;
@@ -231,4 +243,67 @@ span {
 .section-footer p {
   margin: 8px;
   color: #ffffff;
+}
+
+.section-details-header {
+  min-height: 304px;
+  background-color: #081332;
+  margin-top: -90px;
+}
+
+.section-details-content {
+  margin-top: -170px !important;
+}
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0px;
+  margin-bottom: 40px;
+  margin-left: 24px;
+}
+.section-details-content .breadcrumb-item {
+  font-weight: lighter;
+  color: #ffffff;
+}
+.section-details-content .breadcrumb-item.active {
+  font-weight: 700;
+  color: #ffffff;
+}
+.section-details-content .card-details {
+  width: 720px;
+  padding: 32px;
+  border-radius: 16px;
+  margin-left: 24px;
+}
+.section-details-content .card-details h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.section-details-content .card-details h2 {
+  font-size: 32px;
+  font-weight: 300;
+}
+.section-details-content .card-details h3 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: #000000;
+}
+.section-details-content .card-details p {
+  font-size: 16px;
+  font-weight: lighter;
+  color: #b1b1b1;
+}
+.section-details-content .gallery {
+  margin-top: 0px;
+  padding: 0px;
+  width: 636px;
+}
+.section-details-content .gallery .xzoom-container .gallery .xzoom-container {
+  display: block;
+}
+.section-details-content .gallery .xzoom-container .gallery .xzoom-container .xzoom {
+  box-shadow: none;
+}
+.section-details-content .gallery .xzoom-container .gallery .xzoom-container .xactive {
+  border: 2px solid #1abc9c;
+  box-shadow: none;
 }/*# sourceMappingURL=main.css.map */
